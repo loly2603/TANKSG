@@ -180,7 +180,7 @@ public class TankShooting : MonoBehaviour
 
         // Ajusto la velocidad de la bomba en la dirección de disparo.
 
-        shellInstance.velocity = m_CurrentLaunchForce * m_FireTransform.forward; ;
+        shellInstance.linearVelocity = m_CurrentLaunchForce * m_FireTransform.forward; ;
 
 
 
